@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodwinBankAPI", "GodwinBankAPI\GodwinBankAPI.csproj", "{62B4AA10-05BE-408E-8201-6D4987414162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4327EE22-1D98-4E85-99D2-51D2A4C9011D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9F8ABC7-181F-4FC4-8270-06E944FF5BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBank.UnitTest", "TestBank.UnitTest\TestBank.UnitTest.csproj", "{86CB24E7-75BD-42EF-B9F5-E9051B284564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62B4AA10-05BE-408E-8201-6D4987414162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B4AA10-05BE-408E-8201-6D4987414162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B4AA10-05BE-408E-8201-6D4987414162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B4AA10-05BE-408E-8201-6D4987414162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CB24E7-75BD-42EF-B9F5-E9051B284564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CB24E7-75BD-42EF-B9F5-E9051B284564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CB24E7-75BD-42EF-B9F5-E9051B284564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CB24E7-75BD-42EF-B9F5-E9051B284564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62B4AA10-05BE-408E-8201-6D4987414162} = {4327EE22-1D98-4E85-99D2-51D2A4C9011D}
+		{86CB24E7-75BD-42EF-B9F5-E9051B284564} = {A9F8ABC7-181F-4FC4-8270-06E944FF5BAE}
+	EndGlobalSection
+EndGlobal
